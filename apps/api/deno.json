@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env src/main.ts",
+    "start": "deno run --allow-net --allow-env src/main.ts",
+    "dev": "deno check src/main.ts",
+    "fmt": "deno fmt",
+    "lint": "deno lint"
+  },
+  "imports": {
+    "hono": "npm:hono@^4.0.0"
+  }
+}
