@@ -10,7 +10,7 @@ export type CreateUploadUrlResult = {
   expiresAt: string;
 }
 
-export interface StorageProvider = {
+export interface StorageProvider {
   createUploadUrl(
     input: CreateUploadUrlInput
   ): Promise<CreateUploadUrlResult>;
