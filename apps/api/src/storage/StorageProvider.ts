@@ -1,13 +1,13 @@
 export type CreateUploadUrlInput = {
   objectKey: string;
   contentType: string;
-  sizeBites: number;
+  sizeBytes: number;
 }
 
 export type CreateUploadUrlResult = {
   uploadUrl: string;
   method: "PUT" | "POST";
-  expiresAt: "string";
+  expiresAt: string;
 }
 
 export interface StorageProvider = {

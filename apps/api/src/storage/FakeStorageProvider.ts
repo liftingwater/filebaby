@@ -2,7 +2,7 @@ import type {
   CreateUploadUrlInput,
   CreateUploadUrlResult,
   StorageProvider
-} from "./StoragePovider.ts";
+} from "./StorageProvider.ts";
 
 export class FakeStorageProvider implements StorageProvider {
   async createUploadUrl(
