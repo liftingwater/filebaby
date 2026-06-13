@@ -23,4 +23,4 @@ app.post("/files/upload-url", async (c) => {
 });
 
 
-Deno.serve({ port: 8000 }, app.fetch);
+Deno.serve({ port: 8080 }, app.fetch);

@@ -1,0 +1,10 @@
+{
+  "name": "filebaby",
+  "version": "0.0.0",
+  "description": "File sharing application with Deno backend and React frontend",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
